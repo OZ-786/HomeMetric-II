@@ -216,7 +216,7 @@ function liveTimerUpdtFun() {
      // data freshness warning
      var Freshness = ((new Date().getTime()-d)/1000);
 	 if(alertDone==false && Freshness>4600){
-	 alert('The data '+ Math.round(Freshness) + ' Sec old. INVERTER A  is probably offline!');
+	 alert('The data '+ Math.round(Freshness) + ' Sec old. Smart Meter is probably offline!');
 	 alertDone=true;
 	 }
 	 // data freshness info
