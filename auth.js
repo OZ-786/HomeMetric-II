@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const password = document.getElementById('password').value;
         
         // Check credentials (admin/123456789)
-        if (username === 'admin' && password === '123456789') {
+        if (username === 'admin' && password === 'admin12345') {
             // Successful login
             localStorage.setItem('isAuthenticated', 'true');
             loginSection.style.display = 'none';
